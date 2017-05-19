@@ -8,9 +8,13 @@
 body {
 	font-size: 15px;
     line-height: 1.52;
-    color: #717f86;
-    font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+/*
+		color: #717f86;
+			font-family: 'Open Sans', sans-serif;
+*/
+		color: #33058e;
+		font-size: 16px;
+
     font-weight: 400;
     overflow-x: hidden;
 }
@@ -34,9 +38,14 @@ table {
     background-size: cover;
     min-height: 647px;
 }
+.banner-shadow{
+		margin-bottom: 0px;
+    box-shadow: 0 0px 15px #818181;
+    padding:0 0px 0 0px;
+}
 .box-shadow{
-		margin-top: 0px;
-    box-shadow: 0 10px 10px #818181;
+		margin-bottom: 11px;
+    box-shadow: 0 5px 5px #818181;
     padding:0 0px 0 0px;
 }
 .bg-color{
@@ -54,7 +63,7 @@ table {
     font-size: 34px;
 }
 .section-padding{
-    padding: 60px 0px;
+    padding: 10px 0px;
 }
 .logo-name{
     font-family: 'Satisfy', sans-serif;
@@ -111,7 +120,10 @@ table {
     font-weight: 300;
 }
 .header-p {
+	/*
     color: #9699a6;
+		*/
+		color: #33058e;
     font-size: 16px;
 }
 .msg-row {
@@ -277,7 +289,7 @@ table {
     border-radius: 2px;
 }
 #event{
-    background: url('market.jpg') no-repeat;
+    background: url('bg2.jpg') no-repeat;
     background-size: cover;
 }
 .left-images img {
@@ -291,20 +303,23 @@ table {
     border-right: 2px solid #841b2d;
 }
 .details-text {
-    background-color: rgba(14, 4, 4, 0.70);
+    background-color: rgba(3, 3, 30, 0.5);
     border-right: 2px solid #A87F41;
     padding: 20px 20px 30px 30px;
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #e85d45;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #e85d45;
     padding: 10px 0px;
+}
+.details-address {
+	color: #E8E8E8;
 }
 .details-text p {
     color: #E8E8E8;

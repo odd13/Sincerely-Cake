@@ -13,6 +13,17 @@
  * require_tree .
  * require_self
  */
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import 'font-awesome';
+
+.carousel-control{
+
+  width:0px;
+  margin:10px auto;
+}
+
+.carousel-indicator{
+   top:0px;
+}
